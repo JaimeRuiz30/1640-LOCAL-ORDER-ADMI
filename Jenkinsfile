@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Obtener el proyecto') {
             steps {
-                git branch: 'example-rafa', poll: false, url: 'https://github.com/RafaelRamos93/1640-LOCAL-ORDER-ADMI.git'
+                git branch: 'example-jaime', poll: false, url: 'https://github.com/JaimeRuiz30/1640-LOCAL-ORDER-ADMI.git'
             }
         }
         stage('Scanner cobol') {
